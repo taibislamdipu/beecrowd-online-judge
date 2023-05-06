@@ -18,7 +18,10 @@
 // SALARY = U$ 550.00
 
 function salary(employeeNumber, workedHourMonth, amount) {
+  // Calculate the salary
   const salary = parseFloat(workedHourMonth * amount).toFixed(2);
+
+  // Get input values
   const number = parseInt(employeeNumber);
 
   const result = `NUMBER = ${number}` + "\n" + `SALARY = U$ ${salary}`;
