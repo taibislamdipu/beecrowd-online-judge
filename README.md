@@ -1,1 +1,1 @@
-# beecrowd-problem-solution
+### Beecrowd problem solution in JavaScript.
