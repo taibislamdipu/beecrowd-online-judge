@@ -8,4 +8,22 @@
 // Output
 // Print the number and the employee's salary, according to the given example, with a blank space before and after the equal signal.
 
-const employeeNumber = function name(params) {};
+// Input Samples
+// 25
+// 100
+// 5.50
+
+// Output Samples
+// NUMBER = 25
+// SALARY = U$ 550.00
+
+function salary(employeeNumber, workedHourMonth, amount) {
+  const salary = parseFloat(workedHourMonth * amount).toFixed(2);
+  const number = parseInt(employeeNumber);
+
+  const result = `NUMBER = ${number}` + "\n" + `SALARY = U$ ${salary}`;
+
+  return result;
+}
+
+console.log(salary(11, 145, 15.55));
