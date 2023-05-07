@@ -25,10 +25,6 @@ This repository serves as a public record of my daily problem-solving progress o
 
 Explore this repository to witness my growth as a JavaScript problem solver. It exemplifies the power of consistent effort in achieving personal and professional goals.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Profile
 
 https://www.beecrowd.com.br/judge/en/profile/834556
