@@ -28,4 +28,4 @@ function salaryWithBonus(sellerName, salary, totalSale = 10) {
   return output;
 }
 
-console.log(salaryWithBonus("John Toe", 500.0, 1230.3));
+console.log(salaryWithBonus("John Toe ", 500.0, 1230.3));
