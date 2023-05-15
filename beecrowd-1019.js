@@ -22,7 +22,7 @@ function timeConversion(totalSeconds) {
   const second = totalSeconds % 60;
 
   const output = `${hours}:${minutes}:${second}`;
-  //
+
   return output;
 }
 
