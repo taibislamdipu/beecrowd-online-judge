@@ -16,15 +16,13 @@
 // 1 mes(es) - month
 // 5 dia(s) - day
 
-// Output Sample 800 in days was wrong in beecrowd. It should be 20 dia(a) instead of 10 dia(s)
-// 2 ano(s)
-// 2 mes(es)
-// 10 dia(s)
-
 function ageInDays(days) {
+  let day = parseInt(days);
+
   const year = Math.floor(days / 365);
+  day = days % 365;
   const months = Math.floor((days % 365) / 30);
-  const day = days % 30;
+  day = day % 30;
 
   const output =
     `${year} ano(s)` + "\n" + `${months} mes(es)` + "\n" + `${day} dia(s)`;
