@@ -12,6 +12,12 @@
 // Output Sample
 // O JOGO DUROU 10 HORA(S)
 
+// Input Sample
+// 0 0
+
+// Output Sample
+// O JOGO DUROU 24 HORA(S)
+
 function gameTime(startTime, endTime) {
   let duration = endTime - startTime;
 
