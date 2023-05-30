@@ -55,7 +55,33 @@ function salaryCalculator(salary) {
     const newSalary = (salary * 4) / 100 + salary;
     salaryInfo.push(newSalary, increase, 4);
   }
-  return `New Salary: ${salaryInfo[0]}, Money earned: ${salaryInfo[1]}, In percentage:${salaryInfo[2]}% `;
+  return `New Salary: ${salaryInfo[0]}, Money earned: ${salaryInfo[1]}, In percentage:${salaryInfo[2]}%`;
 }
 
 console.log(salaryCalculator(2001.0));
+
+// Solution 2
+
+// function salaryCalculator(salary) {
+//   let percentage;
+//   let increase;
+
+//   if (salary <= 400) {
+//     percentage = 15;
+//   } else if (salary <= 800) {
+//     percentage = 12;
+//   } else if (salary <= 1200) {
+//     percentage = 10;
+//   } else if (salary <= 2000) {
+//     percentage = 7;
+//   } else {
+//     percentage = 4;
+//   }
+
+//   increase = (salary * percentage) / 100;
+//   const newSalary = salary + increase;
+
+//   return `New Salary: ${newSalary.toFixed(2)}, Money earned: ${increase.toFixed(2)}, In percentage: ${percentage}%`;
+// }
+
+// console.log(salaryCalculator(2001.0));
