@@ -55,7 +55,7 @@ function salaryCalculator(salary) {
     const newSalary = (salary * 4) / 100 + salary;
     salaryInfo.push(newSalary, increase, 4);
   }
-  return `New Salary: ${salaryInfo[0]}, Money earned: ${salaryInfo[1]}, In percentage:${salaryInfo[2]}%`;
+  return `New Salary: ${salaryInfo[0]}, Money earned: ${salaryInfo[1]}, In percentage:${salaryInfo[2]}% `;
 }
 
 console.log(salaryCalculator(2001.0));
