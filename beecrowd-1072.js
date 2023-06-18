@@ -34,5 +34,3 @@ for (let i = 0; i < arr.length; i++) {
 
 console.log(inRange + " in");
 console.log(outRange + " out");
-
-// .
