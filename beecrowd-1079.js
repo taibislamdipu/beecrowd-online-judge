@@ -42,3 +42,5 @@ function wAverage(n) {
 }
 
 console.log(wAverage(3));
+
+// .
