@@ -19,3 +19,14 @@
 // ...
 // N[18] = -5
 // N[19] = 0
+
+const arr = [
+  0, -5, 6, 2, -3, 6, 2, -3, 17, 3, 6, -3, 1, 10, -3, 17, 10, -3, 63, 230,
+];
+
+arr.reverse();
+
+for (let i = 0; i < arr.length; i++) {
+  const element = arr[i];
+  console.log(`N[${i}] = ${element}`);
+}
