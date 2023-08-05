@@ -31,3 +31,5 @@ console.log(result);
 //   }, {});
 
 // console.log(result);
+
+// day 2 
