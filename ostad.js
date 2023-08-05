@@ -7,3 +7,4 @@
 // console.log("The temperature in Fahrenheit is: " + result);
 
 // test
+// day 2
