@@ -6,5 +6,4 @@
 // const result = celsiusToFarenheit(32);
 // console.log("The temperature in Fahrenheit is: " + result);
 
-// test
-// day 2
+// day 3
