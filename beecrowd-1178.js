@@ -18,7 +18,7 @@
 // ...
 
 let arr = [200.0];
-for (let i = 0; i < 99; i++) {
+for (let i = 0; i < 100; i++) {
   const number = arr[i] / 2;
   arr.push(number.toFixed(4));
 }
