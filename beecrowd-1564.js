@@ -34,14 +34,14 @@
 
 // vai ter copa!
 
-const inputs = [0, 1, 0, 2, 100, 0];
+// const inputs = [0, 1, 0, 2, 100, 0];
 
-for (let i = 0; i < inputs.length; i++) {
-  const element = inputs[i];
+// for (let i = 0; i < inputs.length; i++) {
+//   const element = inputs[i];
 
-  if (element === 0) {
-    console.log("vai ter copa!");
-  } else {
-    console.log("vai ter duas!");
-  }
-}
+//   if (element === 0) {
+//     console.log("vai ter copa!");
+//   } else {
+//     console.log("vai ter duas!");
+//   }
+// }
