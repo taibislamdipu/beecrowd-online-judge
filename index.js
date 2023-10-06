@@ -33,3 +33,7 @@ console.log(result);
 // console.log(result);
 
 // day 101
+
+const performence = ((90 - 56) / 56) * 100;
+
+console.log(performence);

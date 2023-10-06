@@ -63,4 +63,3 @@ function game(option) {
 }
 
 const option = ["spock", "spock"];
-console.log(game(option));
